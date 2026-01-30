@@ -1,0 +1,14 @@
+#GET https://dwes.hopto.org/laraveles/barberApp/public/api/peinado/1
+
+POST https://dwes.hopto.org/laraveles/barberApp/public/api/peinado
+content-type: application/json
+accept: application/json
+
+{
+    "author": "María Pantano",
+    "name": "Pelado nuevo 3",
+    "idpelo": 1,
+    "description": "Descripción larga.",
+    "price": 13.33,
+    "iduser": 1
+}
